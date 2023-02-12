@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tfmicro"
+version = "0.1.0"
+description = ""
+authors = ["Sergei Silnov <sergei.silnov@kumekay.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+jupyterlab = "^3.6.1"
+tensorflow-macos = "^2.11.0"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
